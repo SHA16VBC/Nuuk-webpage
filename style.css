@@ -1,0 +1,1361 @@
+html{
+    height: 100%;
+    width: 100vw;
+}
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  overflow-x: hidden;
+    font-size: 14px;
+    line-height: 20px;
+}
+.house{
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    height: 610px;
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-attachment: scroll, fixed;
+    background-position: 0px 0px, 50% 0%;
+
+}
+
+.head{
+    display: flex;
+    width: 90%;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: absolute;
+   left: 0;
+   right: 0;
+    margin-top: 2%;
+    
+}
+.nuuk img{
+    height: 21px;
+    width: 90px;
+}
+.nuuk{
+    padding-left: 35px ;
+    padding-right: 35px;
+    height: 110px;
+    width: 90px;
+    background-color: #e47312;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.navbar a{
+  text-decoration: none;
+  padding: 31px 14px; 
+}
+button{
+    display: none;
+}
+.navbar li{
+    display: inline-block;
+    
+   
+}
+.navbar li a{
+    color: #414147;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 3px;
+   
+}
+.navbar{
+    margin-left: auto;  
+}
+.page{
+    position: relative;
+}
+
+.list{
+    display: none;
+    position: absolute;
+    top: 48px;
+right: -120px;
+left: -10px;
+   box-sizing: border-box;
+   padding: 10px 30px 20px 0px;
+   background-color: #fff;
+
+}
+.page:hover .list{ display:block;   
+}
+
+.list ul li{display: block;
+    padding: 10px 10px 10px 0px;
+    text-align: center;
+    box-sizing: border-box;
+ background-color: #fff;
+ width: 140px;
+ margin-left: 0;
+    
+}
+.list ul li a{ 
+    box-sizing: border-box;
+  padding: 0;
+    color: #717177;
+    font-size: 12px;
+    font-weight: 600;
+  
+    
+}
+.list ul li:hover{
+    background-color: #f1f1f7;
+    color: #e47312;   
+}
+.navbar li a:hover{
+    color: #e47312;
+}
+.navbar li a:active{
+    color: #e47312;
+}
+.home li a{
+    color: #e47312;
+}
+
+
+.quote{box-sizing: border-box;
+   height: 100%;
+    margin-left: 20px;
+    padding: 34px 28px ;
+    background-color: #e47312;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.divide {
+display: flex; 
+padding-right: 5%;
+padding-left: 5%;
+height: 85vh;
+justify-content:space-between;
+align-items: center;
+margin-top: 0;
+
+}
+.heading{width:1200px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+.insidehump{
+    display: none;
+}
+.one{
+width: 58.33%;
+padding-left: 10px;
+    padding-right: 10px;
+    height: 181px;
+}
+.heading h1{
+    font-size: 62px ;
+    color: #fff;
+    line-height: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+   
+
+.heading p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.icons a{
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+    text-decoration: none;
+  
+}
+.icons a {
+    width: 40px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.14); 
+}
+.icons  {
+  width: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;   
+  
+}
+.full{
+    position: absolute;
+    right: 2%;
+    bottom: 240px;
+    background-color: #0a1229;
+    padding: 10px;   
+}
+.getfree{display: block;
+    margin-top: 30px;
+    padding: 15px 25px;  
+    background-color: #e47312; 
+    text-align: center;
+    width: 110px;
+}
+.getfree a{
+    text-align: center;
+    color: #fff;
+    min-width: 160px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-decoration: none;
+    height: 20px;
+    font-weight: 500;
+}
+
+
+
+
+.insta a {
+    border-bottom: none;
+}
+.bodyright{box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    width: 100%;
+
+
+
+}
+.outside{box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    right: 2%;
+    top:    500px;
+    width: 1000px;
+    display: flex;
+    padding: 15px 50px 5px 50px;
+    background-color: #e47312;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+}
+
+.logoimages img{
+    margin-bottom: 15px;
+    width: 24px;
+    height: 24px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+   
+}
+.para h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+}
+.map {
+    margin-top: 25px;
+    line-height: 25px;
+}
+.para p {
+    margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+}
+.flowone{
+  flex: 1; 
+   
+    
+}
+.flowtwo{
+flex: 1;
+
+}
+.flowthree{
+    flex: 1;
+    
+}
+/* our specialization*/
+.content{
+    background-color: #fff;
+    padding-top: 15%;
+padding-left:5% ;
+padding-right: 5%;
+display: flex;
+flex-direction: column;
+margin-bottom:5% ;
+}
+.backimage{
+    position: absolute;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 120px;
+    letter-spacing: 11px;
+    font-weight: 600;
+    
+}
+.pageone{
+    left: 100px;
+    top: 770px;
+}
+.frontimage{
+    position: relative;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+  margin-top: 0;
+    margin-bottom: 7%;
+    font-weight: 600;
+    max-width: 1200px;
+    
+}
+.partone{
+    margin-top: 35px;
+    
+}
+.photolog img{height: 60px;
+    width: 60px;
+    margin-bottom:20px ;
+  
+}
+.boxes h1{
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.boxes p{
+    margin-bottom: 25px;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+.boxes a{
+    color: #919198;
+    font-size: 13px;
+    letter-spacing: 1px;
+    
+    padding-bottom: 5px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.forlink {
+    color: #919198;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+.server{
+    padding-bottom: 5px;
+    position: absolute;
+    margin-top: -140px;
+    right: 160px;    
+}
+.forlink:hover{
+    border-bottom: 3px solid  #e47312;
+
+}
+.wrap{
+   display: flex;
+    max-width: 1200px;
+}
+.mainbox{
+    padding: 0px 24px 0px 10px;
+}
+.sided{
+    margin-left: auto ;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+
+/*who we are*/
+.mansection{
+    margin-top: 15%;
+}
+.mansectionone{
+    display: flex;
+justify-content: center;
+
+}
+
+
+.mansection img {
+    max-width: 100%;
+
+}
+.worker{
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
+.mancontent{
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
+.insideman{
+    padding-left:100px ;
+}
+
+.pagetwo{
+   margin-left: 50px;
+   margin-top: -10px;
+}
+.write{
+    margin-bottom: 25px;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+.meet{
+    margin-top: 15px;
+}
+.meet a{
+    padding: 5px;
+}
+.whole{
+    margin-bottom: 10px;
+}
+.numbers{
+    margin-top: 10%;
+   
+}
+.numb{
+    display: flex;
+}
+.inside-num{
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
+.num-pad{
+    padding-right: 40%;
+}
+.num{
+    margin-bottom: 10px;
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+
+}
+/*our work*/
+.grey{
+    background-color: #f7f8fc;
+    padding: 8% 0% 20px 20px;
+}
+.partthree{
+    margin-left: auto ;
+    margin-right: auto;
+}
+.pagethree{
+    margin-top: -10px ;
+    margin-left: 80px;
+    color: #f2f2f8;
+}
+.flexphotos{
+    display: flex;
+    flex-direction: row;
+    
+}
+.second{
+    margin-top: -10px;
+}
+.phototwo img{
+    max-width: 100%;
+    
+}
+.links{
+    padding-top: 25px;
+    padding-right: 20px;
+    position: relative;
+}
+.links:hover .round{margin: auto;
+   
+   
+    border-radius: 50%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+    height: 90px;
+    width: 90px;
+    background-image: linear-gradient(59deg, #ff6361, #e47312);
+    display: block;
+}
+
+
+.round {margin-top: auto;
+   
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+    height: 90px;
+    width: 90px;
+    background-image: linear-gradient(59deg, #ff6361, #e47312);
+    display: none;
+}
+.round div{
+   margin-top: 25px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.square{ display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+min-height: 93%;
+    min-width: 96%;
+    margin-top: 25px;
+    box-sizing: border-box;
+    position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   overflow: hidden;
+}
+.links:hover .square{ background-color: rgba(0, 0, 0, 0.3);
+    max-height: 93%;
+        max-width: 96%;
+        margin-top: 25px;
+        box-sizing: border-box;
+        position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       display: block;
+
+}
+.underorange{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: -20px;
+    background-color: #e47312;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+.lightback{
+margin-left: auto;
+margin-right: auto;
+max-width: 1200px;
+text-align: center;
+}
+.lightback h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+}
+.lightback p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.lightlink{
+   margin-top: 40px;
+   padding-bottom: 5px;
+}
+.lightlink a{
+    color: #fff;
+}
+.lightlink a:hover{padding-bottom: 5px;
+    border-bottom: 3px solid  #ffffff;
+
+}
+.team{
+    padding: 10% 5%;
+}
+.pagefour{
+    margin-top: -10px ;
+    margin-left: -50px;
+    color: rgba(241, 241, 247, 0.75);
+}
+
+/*professionals*/
+.fullcard{
+    display: flex;
+
+}
+.cards{
+    width: 25%;
+}
+
+
+.backgrdone{ background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg); 
+      background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-position: 50% 0%;
+}
+.backgrd-two{ background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg); 
+    background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  background-position: 50% 0%;
+  
+}
+.backgrd-three{ background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg); 
+    background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  background-position: 50% 0%;
+}
+.backgrd-four{ background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg); 
+    background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  background-position: 50% 0%;
+}
+.cards{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.incard{
+    width: 95%;
+    position: relative;
+}
+.describe{
+    padding: 29px 66px 29px 29px;
+    background-color: #fff;
+}
+.describe h1{
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom:0px ;
+}
+.describe p{
+    margin: 0;
+}
+.threelogo{
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    background-color: #e47312;
+    padding: 10px;
+}
+.insidelogo-one{
+    width: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.14); 
+}
+.linkedin{
+    border-bottom: none;
+}
+.testimony{
+    margin-top: 15%;
+}
+.tester{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.firsttest{
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
+.secondtest{
+    padding-right: 100px;
+}
+.chart-test{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex: 1.5;
+}
+.test{
+  
+    margin: 50px auto 61px;
+    padding: 40px 30px 26px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+}
+.test-row-one{
+    width: 90%;
+    position: relative;
+}
+.last{
+    margin-bottom: 0;
+}
+
+.test h4{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.below{
+    margin-bottom: 0px;
+    color: #bdbdc9;
+    font-size: 16px;
+
+}
+.tester-one{
+    width: 50%;
+    margin-left: 40px;
+    flex: 1;
+}
+.tester-two{
+    width: 50%;
+}
+.some{
+    margin: 0;
+    margin-top: 15px;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: linear-gradient(8deg, #ff6361, #e47312);
+    position: absolute;
+    top: -30px;
+    bottom: 0px;
+    left: 135px;
+   
+}
+.circle div{
+    color: #fff;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 12px;
+}
+.tester-two{
+    margin-top: 100px;
+    flex: 1;
+}
+.test p{margin-top: 15px;
+    margin-bottom: 0px;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+/*blog*/
+
+.blog{
+    padding: 10% 5%;
+}
+.inside-blog{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.out{
+    color: rgba(241, 241, 247, 0.4);
+}
+.blogthree{
+    display: flex;
+
+}
+.image-relative img{
+    max-width: 100%;
+    position: relative;
+    margin-bottom: -5px;
+}
+.orangecard{
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+.orangecontent{ 
+    width: 100%;
+    padding: 25px 56px 25px 30px;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+    box-sizing: border-box;
+}
+.orangecontent h1{
+    margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 600;
+}
+.orangecontent p{
+    margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 17px;
+    line-height: 25px;
+margin-top: 0;
+}
+.orangecontent a{
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.more{
+    margin-top: 15px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+}
+.done{
+    color: #919198;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid  rgba(255, 255, 255, 0.4);
+}
+.more a:hover{
+    border-bottom: 3px solid  #ffffff;}
+.image-absol{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.relative{
+    position: relative;
+}
+.date div{color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+
+}
+.date{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-image: linear-gradient(45deg, #ff6361, #e47312);
+}
+.month{
+    display: flex;
+    width: 70px;
+    height: 40px;
+    background-color: #fff;
+    color: #9d9da5;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* last container*/
+.longbox{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: linear-gradient(56deg, #e47312, #ff6361);
+
+}
+.insidelong{
+    display: flex;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+.insidelong h1{
+   flex: 1;
+   margin-right: 60px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.login{
+   width: 20%;
+    min-height: 100px;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.logoone{flex: 1;
+    background-image: url(	https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png);
+}
+.logotwo{flex: 1;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png);
+}
+.logothree{flex: 1;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png    );
+}
+.logofour{flex:1;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png);
+}
+.logofive{flex: 1;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png);
+}
+
+.footerin{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-top: 1px solid #2f3038;
+    background-color: #0a1229;
+}
+.footerflex{
+    display: flex;
+}
+.footone{padding-right: 10px;
+    padding-left: 10px;
+
+}
+.footin{
+    padding-right: 20%;
+    position: relative;
+}
+.footin h1{
+    margin-bottom: 30px;
+    padding-right: 14px;
+    margin-right: 60px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+font-weight: 600;
+}
+.line{
+    position: absolute;
+    left: 100px;
+    top: 8px;
+    right: auto;
+    bottom: auto;
+    width: 60%;
+    height: 1px;
+    background-color: #ff6361;
+}
+.footin p{font-size: 17px;
+    line-height: 25px;
+    color: #fff;
+    margin-top: 0;
+margin-bottom: 5px;}
+.footin a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.footin a:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #fff;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+}
+.service a{
+padding-bottom: 5px;
+margin-bottom: 5px;
+}
+.smalllogo{
+    width: 20px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+.smalllogo img{
+    max-width: 100%;
+   
+}
+.contactflex{
+    display: flex;
+}
+.phone{
+    margin-bottom: 15px;
+    padding-top: 0px;
+}
+.phone h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.footone{
+    flex: 1;
+}
+.newnuuk{
+    margin-top: 80px;
+}
+
+
+/*mobile responsive for only mobile screens below 400px*/
+@media screen and (max-width:400px) { 
+    .heading h1{
+        font-size: 30px;
+    line-height: 35px;
+    }
+    .nuuk img{
+        height: 15px;
+        width: 70px;
+    }
+    .nuuk{
+        padding-left: 20px ;
+        padding-right: 20px;
+        height: 90px;
+        width: 90px;
+        background-color: #e47312;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+}
+.head {
+    width: 100%;
+    margin-left:0%;
+    margin-right: 0%;
+    margin-top: 0;
+}
+.quote{
+    display: none;
+}
+button{
+    display: block;
+    background-color: #fff;
+    border: none;
+    margin-right: 50px;
+}
+.hump{position: relative;
+}
+
+.insidehump{
+    padding: 10px 10px 20px 10px ;
+    background-color: #fff;
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+
+}
+.insidehump img{
+    margin-left: 5px;
+}
+.insidehump a{
+    padding: 15px 15px 15px 15px;
+    background-color:#fff;
+    color: #2f3038;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.hump:hover .insidehump{  display: flex;
+    flex-direction: column;
+}
+.insidehump a:hover{
+    color: #e47312;
+    background-color: #f1f1f7;
+}
+.page{
+    position: relative;
+}
+
+.list{width: 130px;
+    display: none;
+    position: absolute;
+   box-sizing: border-box;
+   padding: 10px 10px 10px 10px;
+   background-color: #fff;
+
+}
+.list a{
+    padding: 15px 15px 15px 15px;
+    flex: 1;
+}
+.page:hover .list{ display:flex;
+    flex-direction: column;   
+}
+.full{
+    
+        position: absolute;
+        right: 0;
+        bottom: 330px;
+        background-color: #0a1229;
+        padding: 10px;   
+    
+
+}
+
+.navbar{
+    display: none;  
+}
+.about{
+    display: none;
+}
+
+.house{
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    height: 610px;
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-attachment: scroll, fixed;
+    background-position: 0px 0px, 50% 0%;
+
+}
+.fadedwrite{
+    display: none;
+}
+.frontimage{
+    font-size: 26px;
+    line-height: 30px;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.mainbox{
+    margin-top: 60px;
+    flex: 1;
+}
+.boxes p{
+    width: 100%;
+}
+.sided{
+    position: relative;
+}
+.server{
+    position: absolute;
+    top:180px;
+    left: 5px;
+    right: 190px;
+}
+.mansection{
+    margin-top: 15%;
+}
+.mansectionone{
+    display: flex;
+    flex-direction: column;
+}
+.worker img{
+    margin-bottom: 55px;
+}
+.dark{
+    margin-bottom: 15%;
+}
+.dark h1{
+    margin-bottom: 9px;
+}
+.insideman {
+    padding-left: 0px;
+}
+.insideman p{
+    width: 100%;
+}
+.numb{
+    display: flex;
+    flex-direction: column;
+}
+.num-pad{
+    width: 100%;
+}
+.forwork{
+    position: relative;
+}
+.for{
+    right: 240px;
+}
+.flexphotos{
+    display: flex;
+    flex-direction: column;
+}
+.topflex{
+    margin-top: 70px;
+}
+.second{
+    margin-top: 5px;
+}
+.workhead{
+    margin-top: 30px;
+}
+.grey {padding: 8% 20px 20px 20px;}
+.lightback h1{
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 9px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right:15px ;
+}
+.team{
+padding: 0;
+margin-top: 60px;
+}
+.lightback p{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right:15px ;
+}
+.underorange{
+    margin-right: -20px;
+}
+.newrelative{
+    position: relative;
+}
+.fullcard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cards{
+    width: 100%;
+    margin-top: 30px;
+}
+.testimony{
+    margin-left: 15%;
+    margin-right: 0px;
+}
+.tester{
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+    
+}
+.circle{
+    left: 110px;
+}
+.secondtest h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.secondtest{
+    padding: 0;
+}
+.chart-test {
+display: flex;
+flex-direction: column;
+}
+.test{
+    width: 80%;
+
+}
+.tester-one , .tester-two{
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+}
+
+.blog{
+    margin-top: 50px;
+}
+.news{
+margin-bottom: 50px;
+}
+.blogthree{
+    display: flex;
+    flex-direction: column;
+}
+.orangecard{
+    margin-top: 50px;
+}
+.insidelong{
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    width: 100%;
+}
+.trust{
+   margin-left: 40px;
+   margin-top: 30px;
+    text-align: center;
+}
+.footerflex{
+    display: flex;
+    flex-direction: column;
+}
+.footerin{
+    width: 69%;
+}
+.footin h1{
+margin-top:20px;
+}
+.longbox{
+    width: 100%;
+}
+body{
+margin: 0;
+}
+}
